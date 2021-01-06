@@ -46,7 +46,7 @@ This section is a checklist to follow when writing a benchmark harness, with exa
 
 ## Instrumentation
 
-Sometimes external measurements are not enough. For instance, if you want to know how much fraction of the overall latency a specific step takes, you’ll need to instrument your code. This is inherently problematic, because you will by definition not be benchmarking the “real” system but an instrumented version of it; here are some tips to mitigate this.
+Sometimes external measurements are not enough. For instance, if you want to know how much fraction of the overall latency a specific step takes, you’ll need to instrument your code. This is inherently problematic, because you will by definition not be benchmarking the “real” system but an instrumented version of it. Here are some tips to mitigate this.
 
 **Don’t measure overall performance on an instrumented system**. Just don’t. Run the benchmark with the instrumentation to measure internal details, and without to measure the overall performance. You cannot simply ignore instrumentation overhead.
 
