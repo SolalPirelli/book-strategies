@@ -8,5 +8,5 @@ Limiting your choices when writing will make your papers better because you will
 
 This is similar to the notion of type systems in programming languages: a good type system prevents programmers from making entire classes of mistakes, even if it also occasionally prevents them from writing code in the exact way they want to.
 
-This guide was inspired by various things I have read, particularly[ Simon Peyton Jones's "How to write a great research paper"](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/). The four-sentence abstract structure is from [John Wilkes](https://john.e-wilkes.com/).
+This guide was inspired by various things I have read, particularly[ Simon Peyton Jones's "How to write a great research paper"](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/). The four-sentence abstract structure is from [John Wilkes](https://john.e-wilkes.com/). [Larry McEnerney's "The Craft of Writing Effectively"](https://www.youtube.com/watch?v=vtIzMaLkCaM) course is a great introduction to how academic writing differs from how you were writing in school.
 
