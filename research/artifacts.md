@@ -38,7 +38,7 @@ You have been working on your cool system and paper for months if not years, and
 
 ### Use consistent terminology between paper and artifact.
 
-If the paper talks about “models”, don’t refer to “stubs” in code. If the paper mentions your system has a library and a front-end, this separation should be obvious in code.
+If the paper talks about “shims”, don’t refer to “stubs” in code. If the paper mentions your system has a library and a front-end, this separation should be obvious in code.
 
 ### Explain how to obtain all paper figures and tables.
 
