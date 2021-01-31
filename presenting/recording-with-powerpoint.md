@@ -1,6 +1,6 @@
 # Recording with PowerPoint
 
-PowerPoint for Windows has awesome recording tools, but they're hidden by default; here's a quick intro.
+PowerPoint for Windows has awesome recording tools, but they're hidden by default. Here's a quick intro.
 
 First, go to _File &gt; Options &gt; Customize Ribbon_ and enable _Recording_ in the right-hand pane.  
 You now have a Recording tab in the ribbon, with a _Record Slide Show_ button.  
