@@ -78,7 +78,7 @@ When running benchmarks, think about the following.
 
 ## Improving performance
 
-**Early bottlenecks are rarely complex**. If you haven’t thought much about performance when implementing your system, there’s a decent chance the bottleneck is something simple, like a custom hash function being poorly suited for the occasion. Don’t spend much time optimizing if you don’t have benchmarks showing what the bottleneck is, and don’t start by looking in edge cases.
+**Early bottlenecks are rarely complex**. If you haven’t thought much about performance when implementing your system, there’s a decent chance the bottleneck is something simple, like a custom hash function being poorly suited for the occasion. Don’t spend much time optimizing if you don’t have benchmarks showing what the bottleneck is, and don’t start by looking at edge cases.
 
 **Beware of log statements**. Even if they do not actually perform logging, they may still format the string to be logged. Double-check what the code actually does.
 
