@@ -38,7 +38,7 @@ This section is a checklist to follow when writing a benchmark harness, with exa
 
 **Fail fast**. You don’t want to wait an hour for a benchmark to finish, only to realize that there’s a bug in your system and the benchmark requests did not get any responses.
 
-**Think of heatup effects**. Many systems take some time to reach peak performance, for instance because they need to fill some caches or JIT compile their code. You most likely want to only measure peak performance, but don’t forget to report how much you let the system heat up.
+**Think of heatup effects**. Many systems take some time to reach peak performance, for instance because they need to fill some caches or compile their code just-in-time. You most likely want to only measure peak performance, but don’t forget to report how much you let the system heat up.
 
 **Minimize benchmarking time**. Do you really need to measure throughput for a minute? Would 10 seconds do instead? What about 5 seconds? On a single run it won’t make much of a difference, but when you’re collecting lots of data it adds up. This answer may vary based on whether you’re doing simple profiling to optimize, or whether you’re collecting data for a paper.
 
